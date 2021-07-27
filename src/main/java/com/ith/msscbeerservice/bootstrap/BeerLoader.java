@@ -4,17 +4,20 @@ import com.ith.msscbeerservice.domain.Beer;
 import com.ith.msscbeerservice.repositories.BeerRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
-import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;
+import java.util.UUID;
 
 @Slf4j
-@Component
+//@Component
 public class BeerLoader implements CommandLineRunner {
 
     public static  final String BEER_1_UPC="01231231";
     public static  final String BEER_2_UPC="01231232";
     public static  final String BEER_3_UPC="01231233";
+    public static final UUID BEER_1_UUID=UUID.fromString("956c9001-2602-49e1-a788-fefe045692ba");
+    public static final UUID BEER_2_UUID=UUID.fromString("bac34767-bc33-44bb-8797-f5904dd93a1d");
+    public static final UUID BEER_3_UUID=UUID.fromString("8dc14ba1-a2fd-41e0-b73e-30ae8c8e1067");
 
     private final BeerRepository beerRepository;
 

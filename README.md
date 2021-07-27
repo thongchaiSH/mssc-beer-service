@@ -4,6 +4,6 @@
 
 |Service Name|Port|
 |---|---|
-|Brewery Beer Service|8080|
-|Brewery Beer Order Service|8081|
-|Brewery Beer Inventory Service|8082
+|[Brewery Beer Service](https://github.com/thongchaiSH/mssc-beer-service)|8080|
+|[Brewery Beer Order Service](https://github.com/thongchaiSH/mssc-beer-order-service)|8081|
+|[Brewery Beer Inventory Service](https://github.com/thongchaiSH/mssc-beer-inventory-service)|8082
